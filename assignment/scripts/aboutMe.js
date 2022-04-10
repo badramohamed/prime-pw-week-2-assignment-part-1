@@ -28,11 +28,13 @@ let friendsPets= 5;
 // 11 - Add two pets to your `pets` variable
 cats=2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets= 7;
+const allowedPets= 7;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if (adventurous) {
+if (adventurous == true) {
 console.log ('adventures are great!')}
+else { 
+    console.log ('how about we stay home')  }
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
@@ -47,6 +49,7 @@ if (luckyNumber =='12' || adventurous == true ) {
 if (pets < allowedPets) {
     console.log ('I can have more pets!')
 }
+
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
